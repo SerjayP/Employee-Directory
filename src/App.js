@@ -1,10 +1,16 @@
 import "./styles.css";
 import Homepage from "./components/Homepage.js";
+import { Route, Routes} from "react-router-dom"
+import EmployeePage from "./page/EmployeePage";
 
 export default function App() {
   return (
     <div className="App">
-      <Homepage />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/employee/:id" element={<EmployeePage />} />
+
+      </Routes>
     </div>
   );
 }

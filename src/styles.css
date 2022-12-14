@@ -60,3 +60,42 @@
   color: #666666;
   font-size: 13px;
 }
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+  color:black;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+p{
+  color: #666666;
+}
+.EmpName {
+  color: black;
+  font-size: 25px;
+}
+.EmpIMG {
+  padding-top: 10px; 
+  border-radius: 50%;
+}
+
+.backButton {
+  display: flex;
+  margin-right: 90%;
+  margin-top: 25%;
+}
+.EmpHead {
+  background-color: #edd382;
+  display: flex;
+  border-bottom: black 3px solid;
+}
+.EmpHead > h1 {
+  margin: auto;
+}
